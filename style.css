@@ -46,6 +46,12 @@ a{
   height: 30px;
 
 }
+#endtermboarder{
+  width: 34%;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 5px;
+}
 
 .profile{
 width:120px;
