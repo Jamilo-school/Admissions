@@ -608,13 +608,21 @@ textarea.input {
     
     
     }
+    .sectionsonopendays{
+      display: grid;
+      grid-template-columns: repeat(2,1fr);
+      margin: 15px;
+    }
+
+
     h1{
       font-size: 20px;
     }
   
     #endtermboarder{
       margin: 5px;
-      font-size: 12px;
+      padding: 10px;
+      font-size: 15px;
       font-weight: bold;
       padding: 5px;
     }
