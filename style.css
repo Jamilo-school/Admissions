@@ -55,6 +55,8 @@ a{
   font-size: 20px;
   font-weight: bold;
   padding: 5px;
+  box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.1);
+  text-align: left;
 }
 
 .profile{
@@ -117,6 +119,7 @@ width:120px;
   transform: rotate(45deg);
   top: 50px;
   left: -13px;
+
 }
 
 form {
@@ -126,6 +129,7 @@ form {
   overflow: hidden;
   position: relative;
   width: 100%;
+ 
   
 }
 
@@ -186,6 +190,7 @@ margin:10px;
   margin: 1rem 0;
   display: grid;
   grid-template-columns: repeat(3,1fr);
+
  
   
 }
@@ -204,6 +209,7 @@ margin:10px;
   border-radius: 25px;
   transition: 0.3s;
   font-weight: bold;
+  
   
 
 }
@@ -294,6 +300,8 @@ textarea.input {
   color: transparent;
   pointer-events: none;
   z-index: 500;
+  border-radius: 16px;
+  
  
 }
 
@@ -341,6 +349,7 @@ textarea.input {
 
 .contact-info .title {
   color: #1abc9c;
+  
   
 }
 
